@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.761.0",
-    "axios": "^0.20.0",
-    "plexsdk-teste": "^0.0.12"
+    "axios": "^0.20.0"
   }
 }
