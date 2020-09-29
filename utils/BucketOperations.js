@@ -11,7 +11,7 @@ class BucketOperations {
 			let urls = [];
 
 			for (const { Key } of Keys) {
-				let url = `https://${process.env.BUCKET_NAME}.amazonaws.com/${Key}`
+				let url = `https://${process.env.BUCKET_NAME}.s3.amazonaws.com/${Key}`
 				urls.push(url);
 			};
 
