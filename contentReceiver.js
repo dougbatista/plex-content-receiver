@@ -18,7 +18,7 @@ exports.handler = async function (event) {
 		};
 
 		return response;
-	
+
 	} catch (err) {
 		const reject = {
 			statusCode: 500,
